@@ -1,0 +1,73 @@
+# Ignore dependencies
+/react-frontend/node_modules/
+./react-frontend/node_modules/
+/react-frontend/.pnp
+/react-frontend/.pnp.js
+
+# Ignore build output
+/react-frontend/build/
+/react-frontend/dist/
+
+# Ignore environment variables
+/react-frontend/.env
+/react-frontend/.env.local
+/react-frontend/.env.development
+/react-frontend/.env.production
+/react-frontend/.env.test
+
+# Ignore cache and temp files
+/react-frontend/.cache/
+/react-frontend/.next/
+/react-frontend/.nuxt/
+/react-frontend/out/
+/react-frontend/.sass-cache/
+/react-frontend/.eslintcache
+
+# Ignore coverage reports
+/react-frontend/coverage/
+
+# Ignore IDE or editor specific files
+/react-frontend/.vscode/
+/react-frontend/.idea/
+
+
+# Ignore dependencies
+node_modules
+
+# Ignore environment variables
+# /backend/.env
+# /backend/.env.local
+# /backend/.env.development
+# /backend/.env.production
+# /backend/.env.test
+
+# Ignore logs
+# /backend/npm-debug.log*
+# /backend/yarn-debug.log*
+# /backend/yarn-error.log*
+
+# Ignore cache and temp files
+# /backend/.cache/
+# /backend/temp/
+# /backend/tmp/
+
+# Ignore build output (if applicable)
+# /backend/dist/
+# /backend/build/
+
+# Ignore coverage reports
+# /backend/coverage/
+
+# Ignore database files (if using local MongoDB)
+# /backend/data/db/
+# /backend/dump/
+
+# Ignore IDE or editor specific files
+# /backend/.vscode/
+# /backend/.idea/
+
+# Ignore operating system files
+# /backend.DS_Store
+# /backend/.DS_Store
+# /backend/Thumbs.db
+

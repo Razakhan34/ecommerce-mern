@@ -1,0 +1,33 @@
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+  line-height: 1.5;
+  color: #777;
+  box-sizing: border-box;
+  cursor: url("./images/cursor.png"), auto;
+}
+.redColor {
+  color: red !important;
+}
+.greenColor {
+  color: green !important;
+}
+.stepperMui {
+  margin-top: 20px;
+}
+/* chrome edge safari for removeing up-down button in number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* for mozilla */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
