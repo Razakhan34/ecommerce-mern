@@ -83,6 +83,7 @@ const App = () => {
         <Route path="/" exact>
           <Home />
         </Route>
+
         <Route path="/product/:id" exact>
           <ProductDetails />
         </Route>
